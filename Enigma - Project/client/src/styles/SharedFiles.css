@@ -1,0 +1,99 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css);
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+#home :hover{
+	color:#0099ff;
+}
+
+
+#db-account :hover{
+	color: #0099ff;
+}
+
+a{
+	text-decoration: none;
+}
+
+.course {
+	border-radius: 10px;
+	border: 1px solid black;
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.course h6 {
+	margin: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top:0.5em
+}
+
+.fas {
+	display: inline;
+}
+
+.btn {
+	background-color: inherit;
+	border: 1px solid black;
+	border-radius: 0.5em;
+	color:black;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#buttonlayout {
+	/* display: flex;
+	justify-content: space-evenly; */
+	/* margin-bottom: 1em; */
+}
+
+#comment{
+	cursor: pointer;
+}
+
+.jumbotron {
+	  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+	  height:200px;
+	  width:100%;
+	  padding-top: 4em;
+	  text-align: center;
+	  justify-content: center;
+	  align-items: center;
+  }
+
+#db-name {
+	  color:black;
+}
+
+#dashboard {
+	color:black;
+}
+
+#share {
+	color:black
+}
+ul {
+	list-style-type:none;
+}
+
+#dash-head{
+	text-align: center;
+	margin-top: 1em;
+	color:rgb(0, 0, 0);
+}
+
+.fas {
+	color:black;
+}

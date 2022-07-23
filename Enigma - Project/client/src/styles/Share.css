@@ -1,0 +1,113 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css);
+
+#share-box{
+	border-radius: 0.5em;
+	border:1px solid #000000;
+	background-color:lightblue;
+	margin-top: 2em;
+	text-align: center;
+	padding:2em;
+}
+
+#select-receiver{
+	width:auto;
+	padding: 1em;
+	background-color: #4079ff;
+	color:#ffffff;
+	border-style: none;
+	border-radius:0.2em;
+}
+
+select{
+	/* border-style: none; */
+	border: 1px solid black;
+	font-size: 15px;
+}
+
+i {
+	padding-top: 40px;
+  }
+
+#choose{
+	display: none;
+}
+
+#file-select{
+	color: #d9d9d9;
+}
+
+#select-file {
+	text-align: center;
+}
+
+#upload{
+	display: none;
+}
+
+#share-btn{
+  font-family: inherit;
+  font-weight: 1000;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  padding:0.5em 2em;
+  width: fit-content;
+  color: black;
+  box-sizing: border-box;
+  background: #00a2ff;
+  cursor: pointer;
+}
+
+#loader{
+	margin-top: -1em;
+	margin-left: 14em;
+	width: 30%;
+	height: 50%;
+}
+
+
+
+#before-add{
+	margin-top: 2em;
+	font-weight: 400;
+	color: #000000;
+}
+
+
+#pw {
+	color: #d9d9d9;
+}
+
+#after-add{
+	margin-top:1em;
+	color:#000000;
+}
+
+#share-desc{
+	margin-top: 2em;
+}
+
+#share-intro{
+	color:#000000;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.navdash {
+	color:#ffffff;
+}
+
+#upload-icon {
+  color:#2067ff;
+  text-align: center;
+}
+
+
+#file-added {
+	color:#2067ff;
+}
+
+

@@ -1,0 +1,118 @@
+#account-bg{
+    /* background-image: url("../styles/assets/map.png");
+    background-size: cover; */
+    height: 100vh;
+    background-color: #0d1320;
+    /* background-color:#171e2e; */
+
+
+}
+
+#account-box{
+    position: absolute;
+    background-color: #0d1320;
+    width: 40em;
+    height: 20em;
+    margin-left: 23em;
+    margin-top: 6em;
+    border-radius: 3%;
+}
+
+#account-info{
+    padding:1em;
+}
+
+
+
+#acc-face{
+    background-color:#171e2e;
+    background-image: url("../styles/assets/face.png");
+    background-size: cover;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin-left:16em;
+    margin-top: -2em;
+}
+
+#acc-name-head{
+    color:rgb(141, 138, 138);
+    font-weight: 400;
+}
+
+#acc-eth-head{
+    color:rgb(141, 138, 138);
+    font-weight: 400;
+}
+
+#acc-prv-head{
+    color:rgb(141, 138, 138);
+    font-weight: 400;
+}
+
+#acc-name{
+    color:#d9d9d9;
+    font-weight: 400;
+    margin: 1em;
+
+}
+
+#acc-eth{
+    color:#d9d9d9;
+    font-weight: 400;
+    margin: 1em;
+
+}
+
+#acc-prv{
+    color:#d9d9d9;
+    font-weight: 400;
+    margin: 1em;
+}
+
+
+#files-details{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 5em;  
+}
+
+
+#shared-files-box{
+    width: 10em;
+    height: 2em;
+    background-color: #0d1320;
+    padding: 1em;
+    margin-left: -6em;
+    margin-top: 1em;
+    border-radius: 5%;
+    color:rgb(141, 138, 138);
+    text-align: center;
+
+}
+
+#received-files-box{
+    width: 14em;
+    height: 2em;
+    background-color: #0d1320;
+    padding: 1em;
+    margin-left: 14em;
+    margin-top: 1em;
+    border-radius: 5%;
+    color:rgb(141, 138, 138);
+    text-align: center;
+
+
+}
+
+#count-files-shared{
+    color: #d9d9d9;
+    margin-top: 1em;
+
+}
+
+#count-files-received{
+    color: #d9d9d9;
+    margin-top: 1em;
+
+}

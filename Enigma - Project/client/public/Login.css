@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color:#323948; */
+    /* align-items: center; */
+}
+
+#logo{
+    position: absolute;
+    margin-left: 36em;
+    margin-top: 3em;
+    width: 11em;
+}
+
+#container-box{
+    display: flex;
+    justify-content: center;
+}
+
+#login-container{
+    margin-top: 9em;
+    width: 26em;
+    height: 26em;
+    background-color: #171e2e;
+    border-radius: 0.5em;
+}
+
+#content{
+    /* margin: 2em; */
+    /* text-align: center; */
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1.7em;
+    padding-bottom: 1.7em;
+
+    color: #d9d9d9;
+}
+
+/* #item-header{
+    margin-bottom: 1em;
+}
+*/
+
+#item-subheader{
+    margin-bottom:1.5em;
+}
+
+
+#email-ip{
+    padding: 1em;
+    border-radius: 0.6em;
+    border: none;
+    width:27.5em;
+    background-color: #313742;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    color: #d9d9d9;
+  
+} 
+
+
+
+#pwd-label{
+    margin-bottom: 20px;
+}
+
+
+#password-ip{
+    padding: 1em;
+    border-radius: 0.6em;
+    border: none;
+    width:27.5em;
+    background-color: #313742;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    color: #d9d9d9;
+
+
+}
+
+label{
+    margin-bottom: 0.4em;
+}
+
+#fpwd{
+    cursor: pointer;
+}
+
+#login-button{
+    width:29em;
+    padding: 1em;
+    border-radius: 0.6em;
+    background-color: #00ffa4;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+
+

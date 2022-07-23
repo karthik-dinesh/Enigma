@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+body{
+ background-color:  #0d1320;
+
+}
+
+
+header{
+  background-color: #171e2e;
+  padding: 2em;
+}
+
+
+ul{
+  list-style: none;
+  display: inline-flex;
+  align-content: center;
+}
+
+#content{
+  max-width: 1080px;
+  margin: auto;
+  height: 70vh;
+}
+
+#nav-items{
+  margin-left: 40em;
+} 
+
+#nav-items li{
+  padding-right: 5em;
+  color: #d9d9d9;
+  font-weight: bolder;
+}
+
+#logo{
+  position:absolute;
+  margin-left: 10em;
+  margin-top: -0.5em;
+}
+
+#bc-img{
+  position: absolute;
+  margin-top: -15em;
+  margin-left: 44em;
+  width: 25em;
+  height: 25em;
+}
+
+#description{
+  margin-top: 10em;
+  margin-left: 4em;
+  color: #d9d9d9;
+}
+
+#learn-more{
+  padding: 1em;
+  border-radius: 2em;
+  width: 10em;
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+  background-color: #0d1320;
+  cursor: pointer;
+}
+
+#get-started{
+  padding: 1em;
+  border-radius: 2em;
+  width: 10em;
+  border: none;
+  background-color: #00ffa4;
+  color: black;
+  font-weight: bolder;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+#get-started:hover{
+  box-shadow:5px 5px black;
+}
+
+#buttons{ 
+  margin-top: 3em;
+  margin-left: 4em;
+}
+
+span{
+  color: #00ffa4;
+}
+
+
+#features-container{
+  background-color: #d9d9d9;
+  /* background-color:#141E30; */
+  height: 120vh;
+  text-align: center;
+}
+
+#features-container img{
+  width: 25em;
+  height: 25em;
+}
+
+
+
+h3{
+  margin-top: -5em;
+  color: #171e17;
+  font-weight: bolder;
+}
+
+
+#showcase{
+  background-color:#0d1320;
+  height: 100vh;
+}
+
+
+#tech-stack{
+  background-color: #d9d9d9;
+  height: 100vh;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+
+}
+
+#footer{
+  background-color: #171e2e;
+  height: 10vh;
+  padding-top: 2em;
+  /* margin-top: 2em; */
+  text-align: center;
+  color: #d9d9d9;
+}
+
+a{
+  text-decoration: none;
+  color: #d9d9d9;
+}
+a:hover{
+  color:#00ffa4;
+}
+
+
+button{
+  display: none;
+}
+
+
+
+#about-us:hover{
+  cursor: pointer;
+color: #00ffa4;
+}
+
+#features:hover{
+  cursor: pointer;
+  color: #00ffa4;
+}
+  
+#login:hover{
+  cursor: pointer;
+  color: #00ffa4;
+}
+
+#register:hover{
+  cursor: pointer;
+  color: #00ffa4;
+}
+
+
+

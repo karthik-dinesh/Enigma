@@ -1,0 +1,59 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css);
+
+
+
+body {
+    height: 100%;
+    background-color: #171e2e;
+
+    /* background-color: #323948; */
+    /* background-color: #262f46; */
+    /* background-image: url("assets/map.png"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* overflow-y: auto; */
+    /* position: relative; */
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #d9d9d9;
+  }
+  
+
+.center
+{
+margin: 10% 20%;
+
+}
+
+span
+{
+font-size: 30px;
+padding:10px;
+}
+
+select
+{
+padding: 10px;
+font-size: 20px;
+width: 30em;
+}
+
+i{
+    padding-top: 200px;
+    /* padding-left: -11em; */
+}
+
+h3{
+    color: #00ffa4;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#proceed-arrow{
+    text-decoration: none;
+    cursor: pointer;
+    color: #d9d9d9;
+}

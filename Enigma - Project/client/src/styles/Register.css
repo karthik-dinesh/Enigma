@@ -1,0 +1,122 @@
+.register-body {
+    background-image: url(./assets/newbg.jpg);
+    background-size: cover;   
+    background-repeat: no-repeat; 
+    height: 101vh;
+}
+
+#reg-head{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0.6em;
+}
+
+#form-container{
+    background-color: azure;
+    border-radius: 2%;
+    text-align: center;
+}
+
+#form-items{
+    margin:1em;
+}
+
+#reg-item-header{
+    color: #d9d9d9;
+    font-weight: 400;
+}
+
+#reg-item-subheader{
+    color: #d9d9d9;
+    font-weight: 400;
+}
+
+#reg-username {
+    padding: 1em;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    width:90%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    color: #000000;
+    outline:none;
+}
+
+#reg-password {
+    padding: 1em;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    width:90%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    color: #000000;
+    outline:none;
+}
+
+#reg-address {
+    padding: 1em;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    width:90%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    color: #000000;
+    outline:none;
+}
+
+#role-select{
+    padding: 1em;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    width:90%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    color: #645c5c;
+    outline:none;
+}
+
+#submit{
+    padding: 1em;
+    border-radius: 0.8em;
+    border: none;
+    width:90%;
+    background-color:#0099ff;
+    margin-bottom: 10px;
+    margin-top: 6px; 
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#item-head-1{
+    padding-top:1em;
+    color:#3f3c3c;
+    
+    text-align: center;
+}
+
+#item-head{
+    color:#d9d9d9;
+    font-weight: 400;
+}
+
+
+
+
+#reg-extra{
+    color:#000000;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+#login-xtra{
+    color: #1900ff;
+}
+

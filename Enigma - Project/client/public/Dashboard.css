@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#nav-bar {
+  background-color: #0d1320;
+  height: 10vh;
+  width: 100%;
+  /* position:fixed; */
+}
+
+#nav-items {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+}
+
+
+#home {
+  color: #d9d9d9;
+}
+
+#share {
+  color: #d9d9d9;
+}
+
+a {
+  text-decoration: none;
+}
+
+#dashboard-container {
+  width: 50%;
+  height: 30vh;
+  /* background-color: aqua; */
+  /* position: absolute; */
+  margin-left: 15em;
+  margin-top: 3em;
+  color: #d9d9d9;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+#Introduction {
+  padding-bottom: 20px;
+}
+
+
+#dash-head {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: -4em;
+}
+
+body {
+  height: 150vh;
+  background-color: #313742;
+}
+
+/* .courses-container {
+  margin-left: 13em;
+} */
+
+.course {
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  /* max-width: 100%; */
+  /* margin: 20px; */
+  overflow: hidden;
+  width: 900px;
+  margin-bottom: 2em;
+}
+
+.course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.course-preview {
+  background-color: #0d1320;
+  color: #fff;
+  padding: 30px;
+  max-width: 250px;
+}
+
+.course-preview h6 {
+  color: rgb(141, 138, 138);
+}
+
+.course-preview h4 {
+  color: #d9d9d9;
+}
+
+.course-preview a {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+  text-decoration: none;
+  width: 30%;
+}
+
+.course-info {
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  background-color: #171e2e;
+}
+
+.course-info h6 {
+  color: rgb(141, 138, 138);
+}
+
+#sender {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.course-info h2 {
+  color: #d9d9d9;
+}
+
+.course-info h4 {
+  color: rgb(141, 138, 138);
+}
+
+.btn {
+  background-color: #00ffa4;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-weight: 900;
+  font-size: 16px;
+  padding: 12px 25px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
